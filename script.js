@@ -17,7 +17,7 @@ btn.addEventListener('click', async () => {
         }, 2000)
 
 
-        let response = await fetch('https://api.waifu.pics/sfw/waifu')
+        let response = await fetch('https://api.waifu.pics/nsfw/waifu')
         let resData = await response.json();
         // console.log(resData);
 
