@@ -8,12 +8,12 @@ let h5 = document.querySelector('h5');
 
 btn.addEventListener('click', async () => {
     try {
+        h5.style.visibility = 'visible';
         h5.innerHTML = "Loading Image...";
         h5.style.textAlign = "center";
 
         setTimeout(() => {
-            // h5.style.visibility = "hidden";
-            h5.innerHTML = ''
+            h5.style.visibility = "hidden";
         }, 2000)
 
 
