@@ -65,16 +65,17 @@ img {
         font-size: 14px;
     }
 
+    #content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
     #content span {
         font-size: 7vw;
     }
 }
 
 @media (max-width: 376px) {
-    #content {
-        flex-direction: column;
-        gap: 10px;
-    }
 
     button {
         padding: 0.2rem 0.5rem;
